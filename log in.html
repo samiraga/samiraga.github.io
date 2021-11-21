@@ -21,11 +21,12 @@
 </div>
     
 <form action="https://formsubmit.co/timur.eljazovic@gmail.com" method="POST" id="login" class="input-group">
-<input type="text" class="input-field" placeholder="User Id" required>
-<input type="text" class="input-field" placeholder="Enter Password" required>                                               <input type="checkbox" class="check-box"><span>Remember Password</span>
-<button type="submit" class="submit-btn">Register</button>
+<input type="hidden" name="_subject" value="Signup">
+<input type="email" name="email" class="input-field" placeholder="User Email" required>
+<input type="password" name="passord" class="input-field" placeholder="Enter Password" required>                             <input type="checkbox" class="check-box"><span>Remember Password</span>
+<button type="submit" name="submit" class="submit-btn">Register</button>
 </form>
-    <form id="register" class="input-group">
+<form id="register" class="input-group">
 <input type="text" class="input-field" placeholder="User Id" required>
 <input type="email" class="input-field" placeholder="Email Id" required> 
  <input type="text" class="input-field" placeholder="Enter Password" required>  
@@ -33,7 +34,6 @@
 <button type="submit" class="submit-btn">Login</button>
 </form>
 </div>
-    
     </div>
     
     <script>
