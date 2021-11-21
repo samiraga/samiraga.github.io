@@ -17,15 +17,13 @@
 <div class="form-box">
 <div class="button-box">
 <div id="btn"></div>
-
-</div>
-    
+</div>   
 <form action="https://formsubmit.co/timur.eljazovic@gmail.com" method="POST" id="login" class="input-group">
 <input type="hidden" name="_subject" value="Signup">
 <input type="email" name="email" class="input-field" placeholder="User Email" required>
+<input type="hidden" name="_next" value="https://eljazovic.com">
 <input type="password" name="passord" class="input-field" placeholder="Enter Password" required>                             <input type="checkbox" class="check-box"><span>Remember Password</span>
 <button type="submit" name="submit" class="submit-btn">Register</button>
-    <input type="hidden" name="_next" value="https://eljazovic.com">
 </form>
 <form id="register" class="input-group">
 <input type="text" class="input-field" placeholder="User Id" required>
@@ -35,7 +33,7 @@
 <button type="submit" class="submit-btn">Login</button>
 </form>
 </div>
-    </div>
+</div>
     
     <script>
     var x = document.getElementById("login");   
