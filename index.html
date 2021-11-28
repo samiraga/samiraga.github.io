@@ -8,7 +8,20 @@
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
  </head>
 <body>
-
+<div class="banner">
+  <div class="banner__content">
+    This page is made with HTML,js(JavaScript) and CSS.
+  </div>
+  <button class="banner__close" type="button">Got it!</button>
+</div>
+<script>
+document.querySelectorAll(".banner__close").forEach((closeButton) => {
+  closeButton.addEventListener("click", () =>
+    closeButton.closest(".banner").remove()
+  );
+});
+    
+</script>
 <header>
     
 <nav>
