@@ -133,3 +133,33 @@ section .btntwo {
     80%{content:"Bosanska Krupa";}
     100%{content:"Livno";}
 }
+
+.banner {
+  width: 100%;
+  background: #eeeeee;
+  display: flex;
+  padding: 1em;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.banner__content {
+  flex-grow: 1;
+  margin-right: 1em;
+  line-height: 1.4;
+}
+
+.banner__close {
+  flex-shrink: 0;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  border: none;
+  background: #009578;
+  color: #ffffff;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.banner__close:hover {
+  background: #007e65;
+}
