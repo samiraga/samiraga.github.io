@@ -1,0 +1,15 @@
+.text {
+    font-size: 90;
+    text-align: center;
+    font-family: sans-serif;
+    border: solid 9px black;
+    border-radius: 15px;
+}
+
+.img {
+    width: 190
+}
+
+.font {
+    font-family: 'Outfit', sans-serif;
+}
